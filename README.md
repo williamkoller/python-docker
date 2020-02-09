@@ -14,3 +14,8 @@ docker build -t python-docker .
 ```
 docker run -d -p 4000:80 python-docker:v1
 ```
+#### image on hub.docker.com
+
+```
+docker pull williamkoller/python-docker:latest
+```
